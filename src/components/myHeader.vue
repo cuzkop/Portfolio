@@ -4,9 +4,6 @@
       <router-link to='/'>Top</router-link>
       <router-link to='/About'>About</router-link>
       <router-link to='/Skill'>Skill</router-link>
-      <i class="material-icons">
-check_circle
-</i>
     </div>
   </header>
 </template>
