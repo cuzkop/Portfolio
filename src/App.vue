@@ -28,4 +28,10 @@ export default {
   #content {
     overflow: auto;
   }
+  myFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+  }
 </style>
