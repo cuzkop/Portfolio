@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <myHeader></myHeader>
-    <router-view/>
+    <div id="content">
+      <router-view/>
+    </div>
     <myFooter></myFooter>
   </div>
 </template>
@@ -19,12 +21,11 @@ export default {
 </script>
 
 <style>
-/*#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-*/</style>
+  myHeader {
+    position: fixed;
+    bottom: 0;
+  }
+  #content {
+    overflow: auto;
+  }
+</style>

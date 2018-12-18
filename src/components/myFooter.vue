@@ -8,27 +8,21 @@
       flat
       tile
     >
-      <v-card-title class="teal">
-        <strong class="subheading">Get connected with us on social networks!</strong>
-
+      <v-card-title class="black">
+        <strong class="subheading">My other links. Please come to my other pages!</strong>
         <v-spacer></v-spacer>
-
         <v-btn
-          v-for="icon in icons"
-          :key="icon"
+          v-for="item in items"
+          :key="item.link"
           class="mx-3"
           dark
           icon
-          :href="icon.link"
+          :href="item.link"
           target="_blank"
         >
-          <v-icon size="24px">{{ icon.icon }}</v-icon>
+          <v-icon size="24px">{{ item.icon }}</v-icon>
         </v-btn>
       </v-card-title>
-
-      <v-card-actions class="grey darken-3 justify-center">
-        &copy;2018 — <strong>Vuetify</strong>
-      </v-card-actions>
     </v-card>
   </v-footer>
 
@@ -38,7 +32,7 @@
 export default {
   name: 'myFooter',
   data: () => ({
-      icons: [
+      items: [
         {icon:'fab fa-facebook', link:'https://www.facebook.com/'},
         {icon:'fab fa-twitter', link:'https://twitter.com/'},
         {icon:'fab fa-github', link:'https://github.com/kazuki5555'},

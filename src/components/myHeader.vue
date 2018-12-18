@@ -1,29 +1,60 @@
 <template>
-  <header>
-    <div class="link">
-      <router-link to='/'>Top</router-link>
-      <router-link to='/About'>About</router-link>
-      <router-link to='/Skill'>Skill</router-link>
-    </div>
-  </header>
+  <v-toolbar
+  dense
+  color="black"
+  ripple
+  style="height: 70px;"
+  >
+    <v-layout justify-center fill-height>
+      <v-toolbar-items class="hidden-sm-and-down">
+        <!-- なぜか下のスタイル内では効かないためボタンごとにベタで高さ調整 -->
+        <router-link to='/' class="link">
+          <v-btn
+          flat
+          color="white"
+          style="height: 70px; width: 100px; font-weight: bold;"
+          >
+            Top
+          </v-btn>
+        </router-link>
+        <router-link
+          class="link"
+          v-for="item in items"
+          :key="item.to"
+          :to="item.to"
+        >
+          <v-btn
+          flat
+          color="white"
+          style="height: 70px; width: 100px; font-weight: bold;"
+          >
+            {{ item.to }}
+          </v-btn>
+        </router-link>
+      </v-toolbar-items>
+    </v-layout>
+  </v-toolbar>
 </template>
 
 <script>
 export default {
   name: 'myHeader',
-  data () {
-    return {
-    }
-  }
+  data: () => ({
+      items: [
+        {to:'Profile'},
+        {to:'Skill'},
+        {to:'Works'},
+        {to:'Contact'},
+      ]
+    })
 }
 </script>
 
 <style>
-header {
-  width: 100%;
-  text-align: center;
-  background-color: white;
-  position: relative;
-  top: 0px;
+.link {
+  text-decoration: none;
 }
+
+
+
 </style>
