@@ -14,7 +14,7 @@
           >
             <v-card-text>
               <div class="headline" style="text-align:center;">
-                <v-icon>email</v-icon>
+                <v-icon>fa-envelope</v-icon>
                 <address>{{ address }}</address>
               </div>
             </v-card-text>
