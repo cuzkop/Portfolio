@@ -37,7 +37,8 @@ var router = new Router({
       name: 'Works',
       component: Works
     }
-  ]
+  ],
+  base: process.env.ROOT_BASE, // new!
 })
 
 export default router
