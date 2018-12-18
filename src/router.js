@@ -2,8 +2,10 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 import Top from '@/pages/Top.vue'
-import About from '@/pages/About.vue'
+import Profile from '@/pages/Profile.vue'
 import Skill from '@/pages/Skill.vue'
+import Contact from '@/pages/Contact.vue'
+import Works from '@/pages/Works.vue'
 
 
 Vue.use(Router)
@@ -16,14 +18,24 @@ var router = new Router({
       component: Top
     },
     {
-      path: '/About',
-      name: 'About',
-      component: About
+      path: '/Profile',
+      name: 'Profile',
+      component: Profile
     },
     {
       path: '/Skill',
       name: 'Skill',
       component: Skill
+    },
+    {
+      path: '/Contact',
+      name: 'Contact',
+      component: Contact
+    },
+    {
+      path: '/Works',
+      name: 'Works',
+      component: Works
     }
   ]
 })
