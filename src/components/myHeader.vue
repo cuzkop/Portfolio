@@ -3,8 +3,7 @@
   dense
   color="black"
   ripple
-  height="auto"
-  style="overflow: scroll;"
+  style="overflow: scroll; height: 8vh;"
   >
     <v-layout justify-center fill-height>
       <v-toolbar-items>
