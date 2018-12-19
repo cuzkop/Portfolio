@@ -6,16 +6,16 @@
         <v-hover>
           <v-card
             raised
-            tile
             class="gray--text mx-auto"
-            :href="'mailto:${address}'"
+            :href="'mailto:'+address"
             slot-scope="{ hover }"
             :class="`elevation-${hover ? 12 : 2}`"
+            contain
           >
             <v-card-text>
-              <div class="headline" style="text-align:center;">
+              <div class="headline" style="text-align:center; word-wrap: break-word;">
                 <v-icon>fa-envelope</v-icon>
-                <address>{{ address }}</address>
+                <span>{{ address }}</span>
               </div>
             </v-card-text>
           </v-card>
@@ -36,3 +36,9 @@ export default {
 }
 
 </script>
+<style>
+  .hello {
+    height: 85vh;
+    width: 100vw;
+  }
+</style>
