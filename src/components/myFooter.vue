@@ -29,7 +29,7 @@
 </template>
 
 <style>
-  @import url('https://maxcdn.bootstrapcdn.com/font-awesome/5.5.0/css/font-awesome.min.css');
+  /*@import url('https://maxcdn.bootstrapcdn.com/font-awesome/5.5.0/css/font-awesome.min.css');*/
 </style>
 <script>
 export default {
