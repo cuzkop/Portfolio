@@ -3,16 +3,17 @@
   dense
   color="black"
   ripple
-  style="height: 70px;"
+  height="auto"
+  style="overflow: scroll;"
   >
     <v-layout justify-center fill-height>
-      <v-toolbar-items class="hidden-sm-and-down">
+      <v-toolbar-items>
         <!-- なぜか下のスタイル内では効かないためボタンごとにベタで高さ調整 -->
         <router-link to='/' class="link">
           <v-btn
           flat
           color="white"
-          style="height: 70px; width: 100px; font-weight: bold;"
+          style="height: 8vh; min-width: 10vw; font-weight: bold;"
           >
             Top
           </v-btn>
@@ -26,7 +27,7 @@
           <v-btn
           flat
           color="white"
-          style="height: 70px; width: 100px; font-weight: bold;"
+          style="height: 8vh; min-width: 10vw; font-weight: bold;"
           >
             {{ item.to }}
           </v-btn>
