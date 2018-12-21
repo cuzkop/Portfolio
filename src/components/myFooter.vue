@@ -38,10 +38,10 @@ export default {
   name: 'myFooter',
   data: () => ({
       items: [
-        {icon:'fab fa-facebook', link:'https://www.facebook.com/kazuki.takahashi.3591', label:facebook},
-        {icon:'fab fa-twitter', link:'https://twitter.com/kzkzkzk55', label:twitter},
-        {icon:'fab fa-github', link:'https://github.com/kazuki5555', label:github},
-        {icon:'fab fa-quora', link:'https://qiita.com/kazuki5555', label:qiita}
+        {icon:'fab fa-facebook', link:'https://www.facebook.com/kazuki.takahashi.3591', label:'facebook'},
+        {icon:'fab fa-twitter', link:'https://twitter.com/kzkzkzk55', label:'twitter'},
+        {icon:'fab fa-github', link:'https://github.com/kazuki5555', label:'github'},
+        {icon:'fab fa-quora', link:'https://qiita.com/kazuki5555', label:'qiita'}
       ]
     })
 }
