@@ -19,6 +19,7 @@
           icon
           :href="item.link"
           target="_blank"
+          rel="noopener"
         >
           <v-icon size="24px">{{ item.icon }}</v-icon>
         </v-btn>
@@ -36,11 +37,10 @@ export default {
   name: 'myFooter',
   data: () => ({
       items: [
-        {icon:'fab fa-facebook', link:'https://www.facebook.com/'},
-        {icon:'fab fa-twitter', link:'https://twitter.com/'},
+        {icon:'fab fa-facebook', link:'https://www.facebook.com/kazuki.takahashi.3591'},
+        {icon:'fab fa-twitter', link:'https://twitter.com/kzkzkzk55'},
         {icon:'fab fa-github', link:'https://github.com/kazuki5555'},
-        {icon:'fab fa-quora', link:'https://qiita.com/kazuki5555'},
-        {icon:'fab fa-instagram', link:'https://www.instagram.com/?hl=ja'}
+        {icon:'fab fa-quora', link:'https://qiita.com/kazuki5555'}
       ]
     })
 }
