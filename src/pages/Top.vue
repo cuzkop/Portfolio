@@ -3,7 +3,7 @@
     dark
     src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
     height='824'
-    alt=""
+    alt="top page"
   >
     <v-layout
       align-center
