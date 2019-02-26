@@ -11,6 +11,7 @@ import Works from '@/pages/Works.vue'
 Vue.use(Router)
 
 var router = new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
