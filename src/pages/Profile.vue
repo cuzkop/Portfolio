@@ -2,7 +2,7 @@
   <div class="hello">
     <h1 style="text-align: center;">Profile</h1>
     <p>
-      <profile v-for='profile in profiles' v-bind:item='profile' :key='profile.title'></profile>
+      <profile v-for='profile in profiles' v-bind:item='profile' :key='profile.title' class="prof"></profile>
     </p>
   </div>
 </template>
@@ -20,6 +20,10 @@ export default {
         {
           title: 'Name',
           content: '高橋一貴(タカハシカズキ)'
+        },
+        {
+          title: 'Work',
+          content: 'バックエンドエンジニア'
         },
         {
           title: 'BirthDay',
@@ -46,3 +50,8 @@ export default {
   }
 }
 </script>
+<style scoped>
+.prof >>> .head {
+  background: #E0E0E0;
+}
+</style>

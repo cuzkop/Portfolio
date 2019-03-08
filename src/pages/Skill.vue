@@ -35,15 +35,15 @@ export default {
         },
         {
           name: 'GCP',
-          detail: '最近、社内管理ツールのテスト環境及び本番環境とその他サーバーをオンプレからGCPに移行する際に初めて触りました。インスタンスを作成して、CentOS上にnginx,php,php-fpmをインストールして一通り環境を構築するところまでは経験があります。'
+          detail: '最近、社内管理ツールのテスト環境及び本番環境とその他サーバーをオンプレからGCPに移行する際に初めて触りました。GCEにてインスタンスを作成して、CentOS上にnginx,php,php-fpmをインストールして一通り環境を構築するところまでは経験があります。'
         },
         {
           name: 'MySQL',
           detail: '基本動作は問題なく使えます。上記のPHP/Laravelと並行して実務経験があります。'
         },
         {
-          name: 'Ruby/Ruby on Rails',
-          detail: 'Progateにて学習の後Railsチュートリアルを少々触っております。'
+          name: 'Golang',
+          detail: '書籍にて勉強後、業務用スクレイピングツールを開発中です。'
         }
       ]
     }
