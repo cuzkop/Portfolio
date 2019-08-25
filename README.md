@@ -1,29 +1,23 @@
-# my-project
+# my portfolio in 2018/12
 
-> A Vue.js project
+## 目的
 
-## Build Setup
+- Vue.jsの勉強兼アウトプット
+- 2018/12現在の情報ですので、最新の情報は[こちら](https://github.com/kazuki5555/Resume)を参照ください
 
-``` bash
-# install dependencies
-npm install
+## 使用技術
 
-# serve with hot reload at localhost:8080
-npm run dev
+- Vue.js
+  - veu-router
+- Vuetify
 
-# build for production with minification
-npm run build
+## Purpose
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+- Studying Vue.js and output
+- It's old info(2018/12) my latest information and resume is [here](https://github.com/kazuki5555/Resume)
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Description
 
-
-# my new portfolio
-
-framework: vue.js
-other: vue-router,vuetify.js
-
-studying and creating now
+- Vue.js
+  - vue-router
+- Vuetify
